@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="FB455F6B-21B3-272F-CC3E-BD32A02A4712" name="Gulf and Pacific Coast Nonprofits" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

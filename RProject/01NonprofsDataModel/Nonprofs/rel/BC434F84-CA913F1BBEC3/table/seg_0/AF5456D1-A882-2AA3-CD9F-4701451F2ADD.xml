@@ -1,0 +1,334 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF5456D1-A882-2AA3-CD9F-4701451F2ADD" name="Gulf_and_Pacific_Coast_Nonprofits">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>FB455F6B-21B3-272F-CC3E-BD32A02A4712</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<abbreviation>Nonprofs</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EIN" id="7167FD53-3B61-4534-DC0A-BA3FB7FEBE10">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>4CCB35EC-BD4B-AD7F-1D98-B551136AD222</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="217C34FB-B7B6-C716-9D62-8891F4118A4D">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>9AD5D350-FA93-1F8D-39B7-A925CA93B7F5</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICO" id="8BB563EF-A8CA-C664-DF22-1CAD59FFB5CA">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>60B39008-798E-D3DF-7BA7-96D14CA0D428</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STREET" id="B62C87B3-12D3-820D-E9A7-44ABF5083301">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>9577CFC5-21AB-521E-3466-7E794034B882</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="C14FDC5D-A0EA-83B6-F1FB-346BBCA75018">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>E5AABC21-A2A2-6941-F591-2D1FA85B9736</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="0A6604DC-5D36-951B-4490-050EBBE58CCB">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>6556DEDA-6167-7A06-F36B-7990E667A492</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZIP" id="CD2411A6-6AC4-D852-A789-63C41E1F8D8F">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>EFB2BBC3-BCB6-6DA8-F061-8D95443AD3DC</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASS" id="662111E6-CD09-242D-F55E-4161A21B3AE2">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>846F6698-7221-950C-F7FC-3FA44790DF4A</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBSECTION" id="9794B931-5702-B38D-ACC7-E25D54A50EE6">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>284CA35E-B26F-942B-4C8F-E1D9A6D664DF</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AFFILIATION" id="A710E04A-4312-8D3C-F860-35CCB26D5643">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>F43A8D40-A5DD-D8E4-2479-331C0E47EE50</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLASSIFICATION" id="9968A7EB-BA73-56A3-8432-077419E3B72A">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>EBD52B4B-6815-B0A8-7CE2-1D0001F47E87</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RULING" id="22CE2FC0-F533-0CB8-C3CF-8A96E3733EC5">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>8A32E1F1-2C9E-2A05-06F6-346F28F71E2A</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEDUCTIBILITY" id="A64D35E9-505A-82AC-AB0D-F9371D0FF87E">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>8B970455-232D-CE69-1311-1F25FADB230B</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOUNDATION" id="4F056D0A-4D5B-6F4A-84E7-7B2D23E2330F">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>A8A89148-AF93-5B5A-5A55-19466E177615</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVITY" id="7876A948-AA49-17EA-B00A-623E1E371AFB">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>EC4C1449-C5B5-495F-D40B-8481C9F549B0</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORGANIZATION" id="FF1B544C-B1C4-73AD-61AE-29FBCB760E29">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>A122CC00-C5AD-01E0-2284-7803F35FBB5F</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="351C9B15-7D0D-8FFD-D4B6-2B55511647F1">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>3774FD60-9432-C9F3-5FED-2081F3334379</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAX_PERIOD" id="5D3CF184-E2D6-102D-98E1-AB9207782824">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>E8601DF8-4DED-F5D6-781A-BCAF6A20D934</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASSET_CD" id="9F38BC29-619F-65B2-8373-16FFEE935407">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>E3A5F423-4DDA-B928-2022-FE7A6464486E</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INCOME_CD" id="735B6458-95E9-6181-69FE-ACD62C8A5D70">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>1E1E87A0-597E-8EAA-8903-83DEAB0AD302</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILING_REQ_CD" id="2DEDDEA4-C205-32B6-783F-3603040A82C0">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>AEC45692-D4AA-2681-4068-F620EEE02E9F</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PF_FILING_REQ_CD" id="3D5AB595-B49A-979E-817F-93DE83BBF3B0">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>6984E883-442B-F35B-8BFB-99D4ACEC7698</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCT_PD" id="58F99223-0A84-37C2-24AA-AF955101A4B8">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>B0C075F4-C696-72E2-32D4-EB5AB300F8C7</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASSET_AMT" id="66E3FA13-5BAE-B45D-43C4-01EEEB25D200">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>5D62A558-9155-0BBB-C83C-202E92E6FEE2</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INCOME_AMT" id="D1D4EE44-E4BF-79CC-176F-5046B4159B82">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>C6EE3573-2321-1DA8-128C-04FD1B90E867</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REVENUE_AMT" id="BA51AC0D-4814-BF6E-1324-740608EF9284">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>EE9AA09A-87DF-2BEE-0C92-D1F7F0769AA2</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NTEE_CD" id="CB7B05E3-B444-0D39-EFA7-0E3E9EF9EFEE">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>754DD4CC-A59D-D006-6A03-96DB3D2421B2</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SORT_NAME" id="437976BE-1974-662A-CBED-168864943482">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>4D4FE75E-DA45-A79C-87E2-960D144CCA8A</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C708AB5-D8D5-4F44-F609-7507767E2532" name="Gulf_and_Pacific_Coast_Nonprofits_PK">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:31:14 UTC</createdTime>
+<generatorID>ACD8913A-F82E-451B-C1B3-4C63579E03C8</generatorID>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7167FD53-3B61-4534-DC0A-BA3FB7FEBE10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="AF5456D1-A882-2AA3-CD9F-4701451F2ADD" name="Gulf_and_Pacific_Coast_Nonprofits" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

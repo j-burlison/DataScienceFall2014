@@ -24,5 +24,23 @@ if(!inherits(possibleError, "error")){
   
   dbDisconnect(jdbcConnection)
 }
-
+orgCode = 1:5
+name = c("Corporation", "Trust", "Co-operative", "Partnership", "Association")
+orgMapping = data.frame(Code = orgCode, Description = name)
+classCode = 1:8
+className = c("Charitable Organization", "Educational Organization", "Literary Organization", "Organizations to prevent cruelty to animals", "Organizations to prevent cruelty to children", "Organizations for Public Safety Testing", "Religious Organizations", "Scientific Organizations")
+classMapping = data.frame(Code = classCode, Description = className)
+c3 <- subset(allResults, SUBSECTION == '03')
+ggplot(data = allResults) + geom_histogram(aes(x=SUBSECTION))
+c3$CLASSIFICATION = as.character(floor(as.numeric(c3$CLASSIFICATION)/1000))
+ggplot(data = c3) + geom_histogram(aes(x = CLASSIFICATION, fill = INCOME_CD))
+ggplot(data = c3) + geom_histogram(aes(x = CLASSIFICATION, fill = ASSET_CD))
+classMapping  
+ggplot(data = c3) + geom_histogram(aes(x = STATE))  
+ggplot(data = c3) + geom_histogram(aes(x = ORGANIZATION))
+orgMapping
+Wealthiest  <- subset(c3, ASSET_CD == '9')
+ggplot(data=Wealthiest) + geom_histogram(aes(x=STATE))
+ggplot(data=Wealthiest) + geom_point(aes(x=ASSET_AMT, y=INCOME_AMT)) + theme(axis.text.x=element_blank(), axis.text.y=element_blank())
+ggplot(data = c3) + geom_histogram(aes(x = ASSET_CD, fill = INCOME_CD))
 

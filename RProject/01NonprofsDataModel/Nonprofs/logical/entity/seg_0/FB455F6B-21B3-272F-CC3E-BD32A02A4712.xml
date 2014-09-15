@@ -1,0 +1,370 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB455F6B-21B3-272F-CC3E-BD32A02A4712" name="Gulf and Pacific Coast Nonprofits">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:01:45 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Nonprofs</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EIN" id="4CCB35EC-BD4B-AD7F-1D98-B551136AD222">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:11:45 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="NAME" id="9AD5D350-FA93-1F8D-39B7-A925CA93B7F5">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:13:57 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="ICO" id="60B39008-798E-D3DF-7BA7-96D14CA0D428">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:02 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="STREET" id="9577CFC5-21AB-521E-3466-7E794034B882">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:03 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="CITY" id="E5AABC21-A2A2-6941-F591-2D1FA85B9736">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:03 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="STATE" id="6556DEDA-6167-7A06-F36B-7990E667A492">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:04 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+</Attribute>
+<Attribute name="ZIP" id="EFB2BBC3-BCB6-6DA8-F061-8D95443AD3DC">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:04 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+</Attribute>
+<Attribute name="ASS" id="846F6698-7221-950C-F7FC-3FA44790DF4A">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:05 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="SUBSECTION" id="284CA35E-B26F-942B-4C8F-E1D9A6D664DF">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:05 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+</Attribute>
+<Attribute name="AFFILIATION" id="F43A8D40-A5DD-D8E4-2479-331C0E47EE50">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:05 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="CLASSIFICATION" id="EBD52B4B-6815-B0A8-7CE2-1D0001F47E87">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:06 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="RULING" id="8A32E1F1-2C9E-2A05-06F6-346F28F71E2A">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:06 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+</Attribute>
+<Attribute name="DEDUCTIBILITY" id="8B970455-232D-CE69-1311-1F25FADB230B">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:06 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="FOUNDATION" id="A8A89148-AF93-5B5A-5A55-19466E177615">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:06 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+</Attribute>
+<Attribute name="ACTIVITY" id="EC4C1449-C5B5-495F-D40B-8481C9F549B0">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:06 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+</Attribute>
+<Attribute name="ORGANIZATION" id="A122CC00-C5AD-01E0-2284-7803F35FBB5F">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:07 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="STATUS" id="3774FD60-9432-C9F3-5FED-2081F3334379">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:07 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+</Attribute>
+<Attribute name="TAX_PERIOD" id="E8601DF8-4DED-F5D6-781A-BCAF6A20D934">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:07 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+</Attribute>
+<Attribute name="ASSET_CD" id="E3A5F423-4DDA-B928-2022-FE7A6464486E">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:07 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="INCOME_CD" id="1E1E87A0-597E-8EAA-8903-83DEAB0AD302">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:07 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="FILING_REQ_CD" id="AEC45692-D4AA-2681-4068-F620EEE02E9F">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:08 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+</Attribute>
+<Attribute name="PF_FILING_REQ_CD" id="6984E883-442B-F35B-8BFB-99D4ACEC7698">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:08 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="ACCT_PD" id="B0C075F4-C696-72E2-32D4-EB5AB300F8C7">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:09 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+</Attribute>
+<Attribute name="ASSET_AMT" id="5D62A558-9155-0BBB-C83C-202E92E6FEE2">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:09 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="INCOME_AMT" id="C6EE3573-2321-1DA8-128C-04FD1B90E867">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:09 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="REVENUE_AMT" id="EE9AA09A-87DF-2BEE-0C92-D1F7F0769AA2">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:10 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="NTEE_CD" id="754DD4CC-A59D-D006-6A03-96DB3D2421B2">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:10 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="SORT_NAME" id="4D4FE75E-DA45-A79C-87E2-960D144CCA8A">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:15:11 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ACD8913A-F82E-451B-C1B3-4C63579E03C8" name="Gulf and Pacific Coast Nonprofits PK">
+<createdBy>jbur</createdBy>
+<createdTime>2014-09-14 20:12:37 UTC</createdTime>
+<ownerDesignName>Nonprofs</ownerDesignName>
+<engineerTo>
+<item key="BC434F84-860E-1D1B-490F-CA913F1BBEC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4CCB35EC-BD4B-AD7F-1D98-B551136AD222</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
